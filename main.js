@@ -9,7 +9,7 @@ function getGif(e) {
 
         .then((response) => {
             let output = '';
-            console.log(response);
+            //console.log(response);
             //console.log(response.data.data[0].images.original.url);
 
             var images = response.data.data;
